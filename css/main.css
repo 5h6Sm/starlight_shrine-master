@@ -65,9 +65,9 @@ nav a {
     /* visibility: hidden; */
 }
 .nav-link:hover{
-background-color: #fff;
-color: #000000;
-border-radius: 0.5rem;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 0.5rem;
 }
 .nav-toggle i{
     color:#fff;
