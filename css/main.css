@@ -64,12 +64,10 @@ nav a {
     display: none;
     /* visibility: hidden; */
 }
-.nav_item{
-border-radius: 100%;
-width:fit-content;
-}
-.nav_item:hover{
-    background-color: #fff;
+.nav-link:hover{
+background-color: #fff;
+color: #000000;
+border-radius: 0.5rem;
 }
 .nav-toggle i{
     color:#fff;
@@ -84,6 +82,7 @@ width:fit-content;
 
 .nav-link {
     display: block; /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
+    border: black;
 }
 
 .nav-link {
