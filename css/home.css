@@ -66,7 +66,7 @@ video{
     box-shadow: 3px 3px 12px #999;
 }
 .inner1{
-  background-image: url("/img/home-img-list/Rectangle\ 36.png");
+  background-image: url("../img/home-img-list/Rectangle\ 36.png");
   background-size: cover;
 }
 .inner2{
