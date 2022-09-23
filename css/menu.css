@@ -8,10 +8,10 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.sig-menu{
+.sig-menu, .add-menu{
     width:80%;
 }
-.sig-menu>h1{
+.sig-menu>h1, .add-menu>h1{
     text-align: center;
     padding:30px 0 30px 0;
 }
@@ -104,6 +104,26 @@ body{
     background-image: url("/img/set-menu/Mask group-3.jpg");
     background-size:cover;
 }
+.add-menu{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    justify-items: left;
+}
+.market-menu-item{
+    padding-bottom:10px;
+    height:fit-content;
+}
+.market-menu-item>h2{
+    margin-bottom: 5px;
+}
+.market-menu-item h3{
+    margin-top:5px;
+}
+.market-menu-item:nth-child(1){
+    grid-row: span 3;
+}
+
 /* footer */
 .footer {
     width: 100%; /* 넓이를 100%로 채우기 반응형 */
