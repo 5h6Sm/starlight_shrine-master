@@ -64,7 +64,13 @@ nav a {
     display: none;
     /* visibility: hidden; */
 }
-
+.nav_item{
+border-radius: 100%;
+width:fit-content;
+}
+.nav_item:hover{
+    background-color: #fff;
+}
 .nav-toggle i{
     color:#fff;
 }
