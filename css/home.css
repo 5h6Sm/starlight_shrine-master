@@ -12,6 +12,12 @@
     ),
     url("../img/Mask group.png");
 }
+.nav-list{
+  z-index: 999999999999;
+}
+header{
+  z-index: 999999999999;
+}
 .in-img{
   width:100%;
   height:600px;
