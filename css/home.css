@@ -26,7 +26,7 @@ header{
 }
 
 .first-img-text{
-  font-size: 2vw;
+  font-size: 2.3vw;
   font-weight: 900;
     padding-left: 14.5%;
     padding-top: 21%;
@@ -34,8 +34,8 @@ header{
 }
 
 .blank{
-    width: 3vw;
-    height:100px;
+    width: 100%;
+    height:13vw;
      
 }
 .content{
@@ -55,14 +55,14 @@ video{
 }
 .blank-2{
     width: 100%;
-    height:200px;
+    height:20vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .blank-2-text{
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 .img-wrap{
     width:80vw;
