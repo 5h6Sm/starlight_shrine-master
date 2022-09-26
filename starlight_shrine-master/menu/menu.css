@@ -22,7 +22,6 @@ h2{
 
 }
 .sig-menu, .add-menu{
-    width:80%;
 }
 .sig-menu>h1, .add-menu>h1{
     text-align: center;
@@ -123,7 +122,6 @@ h2{
     background-size:cover;
 }
 .add-menu{
-    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
     justify-items: left;
@@ -141,7 +139,10 @@ h2{
 .market-menu-item:nth-child(1){
     grid-row: span 3;
 }
-
+.add-menu{
+    justify-content: center;
+    justify-items: center;
+}
 /* footer */
 .footer {
     width: 100%; /* 넓이를 100%로 채우기 반응형 */
